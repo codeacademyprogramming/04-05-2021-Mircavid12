@@ -1,0 +1,109 @@
+@media screen and (max-width: 576px) {
+    #intro{
+        .content{
+            text-align: center;
+            .customize-link{
+                display: block;
+                padding: 20px 0;
+            }
+        }
+    }
+
+    #commercy{
+        text-align: center;
+        h1{
+            padding: 0;
+        }
+    }
+
+    #features{
+        a{
+            padding: 10px 20px;
+        }
+        .develop{
+            img{
+                max-width: 30%;
+                margin-top: -15px;
+            }
+            p{
+                display: none;
+            }
+            h4{
+                font-size: 15px;
+                line-height: 20px;
+            }
+            a{
+                float: left;
+            }
+        }
+        .community{
+            img{
+                max-width: 30%;
+            }
+            p{
+                display: none;
+            }
+            h4{
+                float: right;
+                text-align: right;
+            }
+            a{
+                float: right;
+            }
+        }
+    }
+
+    #testimonials{
+        background-position: center;
+        p{
+            padding: 155px 25%;
+            color: #94A2B3;
+            font-size: 12px;
+        }
+    }
+
+    #support{
+        background-position: center;
+        p{
+            font-size: 14px;
+            padding: 10px 15%;
+        }
+    }
+
+    #cta{
+        margin-top: -170px;
+        text-align: center;
+        .cta{
+            .cta-text{
+                font-size: 20px;
+                text-align: center;
+            }
+            .cta-btn{
+                padding: 6px 40px;
+            }
+        }
+    }
+
+    footer{
+        text-align: center;
+        .footer-head div{
+            padding-top: 30px;
+        }
+        .footer-nav{
+            text-align: center;
+            div{
+                margin-top: 20px;
+            }
+        }
+        .foot{
+            text-align: center;
+            .socials{
+                display: none;
+            }
+            p{
+                font-size: 12px;
+                margin-left: 0;
+            }
+        }
+    }
+  }
