@@ -1,0 +1,365 @@
+.navbar {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-weight: 500;
+  margin: 10px 30px;
+}
+
+.navbar-right {
+  margin-left: 421px;
+}
+
+.navbar-nav li .nav-link {
+  color: #272D4E !important;
+}
+
+.navbar-nav li:first-child {
+  margin-left: 80px;
+}
+
+.navbar-search a {
+  margin-left: 20px;
+}
+
+.navbar-search .login {
+  text-decoration: none;
+  color: #272D4E !important;
+}
+
+.navbar-search .start-btn {
+  background: #7854F7 !important;
+  color: white !important;
+  display: inline-block;
+}
+
+.navbar-search .search-btn {
+  display: inline-block;
+  color: #272D4E;
+}
+
+#intro {
+  padding: 180px 0;
+  height: 120vh;
+  background: url("/04-05-2021-Mircavid12/assets/images/hero_section.png");
+  background-size: cover;
+}
+
+#intro .content h1 {
+  color: #272D4E;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+#intro .content p {
+  padding: 15px 0;
+  color: #94A2B3;
+}
+
+#intro .content .start-btn {
+  background-color: #7854F7;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 30px;
+}
+
+#commercy {
+  margin-bottom: 100px;
+}
+
+#commercy h1 {
+  color: #272D4E;
+  text-align: center;
+  padding: 0 35%;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#commercy .commerce {
+  padding-left: 20px;
+}
+
+#commercy .commerce img {
+  max-width: 100%;
+}
+
+#commercy .commerce h3 {
+  color: #272D4E;
+  font-size: 25px;
+}
+
+#commercy .commerce p {
+  color: #94A2B3;
+  font-size: 14px;
+}
+
+#commercy .commerce a {
+  font-weight: 700;
+  color: #299EF3;
+}
+
+#features {
+  background: url("/04-05-2021-Mircavid12/assets/images/features.png");
+  padding: 100px 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#features a {
+  padding: 14px 25px;
+  border: none;
+  background-color: #70C217 !important;
+}
+
+#features .develop {
+  color: white;
+}
+
+#features .develop img {
+  max-width: 50%;
+  margin-top: 20px;
+  float: left;
+  padding-right: 30px;
+  margin-top: -80px;
+}
+
+#features .develop h4 {
+  padding-top: 35px;
+  line-height: 30px;
+}
+
+#features .develop p {
+  padding: 10px 0;
+}
+
+#features .community {
+  color: white;
+  padding: 10px 0;
+}
+
+#features .community img {
+  max-width: 45%;
+  float: right;
+}
+
+#features .community h4 {
+  padding-top: 50px;
+}
+
+#testimonials {
+  height: 120vh;
+  background: url("/04-05-2021-Mircavid12/assets/images/testimonials-section.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#testimonials h1 {
+  color: #272D4E;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+#testimonials p {
+  text-align: center;
+  padding: 245px 32%;
+  color: #94A2B3;
+  font-size: 20px;
+}
+
+#support {
+  margin-top: 80px;
+  height: 90vh;
+  background: url("/04-05-2021-Mircavid12/assets/images/support.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#support h1 {
+  text-align: center;
+  color: #272D4E;
+  font-weight: bold;
+}
+
+#support p {
+  color: #94A2B3;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 26%;
+}
+
+#cta {
+  margin-top: -197px;
+}
+
+#cta .cta {
+  background: #5F37EF;
+  padding: 50px 0;
+}
+
+#cta .cta .cta-text {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+}
+
+#cta .cta a {
+  padding: 12px 40px;
+}
+
+footer {
+  background-color: #7854F7;
+  padding: 10px 0;
+}
+
+footer .footer-head {
+  padding: 50px 0;
+}
+
+footer .footer-head span {
+  padding-left: 10px;
+}
+
+footer .footer-logo {
+  padding: 70px 10% 40px 10%;
+  border-bottom: 1px solid #9A7DFF;
+}
+
+footer .footer-nav {
+  padding: 40px 0;
+  color: #fff;
+}
+
+footer .footer-nav h5 {
+  text-align: center;
+}
+
+footer .footer-nav ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+footer .foot {
+  padding: 5px 0;
+  background: #fff;
+  margin-bottom: -10px;
+}
+
+footer .foot ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-top: 10px;
+}
+
+footer .foot ul li {
+  padding-left: 25px;
+}
+
+footer .foot p {
+  font-size: 13px;
+  margin-left: 20%;
+  color: #272D4E;
+  padding-top: 15px;
+}
+
+footer .foot a {
+  color: #272D4E;
+}
+
+@media screen and (max-width: 576px) {
+  #intro .content {
+    text-align: center;
+  }
+  #intro .content .customize-link {
+    display: block;
+    padding: 20px 0;
+  }
+  #commercy {
+    text-align: center;
+  }
+  #commercy h1 {
+    padding: 0;
+  }
+  #features a {
+    padding: 10px 20px;
+  }
+  #features .develop img {
+    max-width: 30%;
+    margin-top: -15px;
+  }
+  #features .develop p {
+    display: none;
+  }
+  #features .develop h4 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #features .develop a {
+    float: left;
+  }
+  #features .community img {
+    max-width: 30%;
+  }
+  #features .community p {
+    display: none;
+  }
+  #features .community h4 {
+    float: right;
+    text-align: right;
+  }
+  #features .community a {
+    float: right;
+  }
+  #testimonials {
+    background-position: center;
+  }
+  #testimonials p {
+    padding: 155px 25%;
+    color: #94A2B3;
+    font-size: 12px;
+  }
+  #support {
+    background-position: center;
+  }
+  #support p {
+    font-size: 14px;
+    padding: 10px 15%;
+  }
+  #cta {
+    margin-top: -170px;
+    text-align: center;
+  }
+  #cta .cta .cta-text {
+    font-size: 20px;
+    text-align: center;
+  }
+  #cta .cta .cta-btn {
+    padding: 6px 40px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .footer-head div {
+    padding-top: 30px;
+  }
+  footer .footer-nav {
+    text-align: center;
+  }
+  footer .footer-nav div {
+    margin-top: 20px;
+  }
+  footer .foot {
+    text-align: center;
+  }
+  footer .foot .socials {
+    display: none;
+  }
+  footer .foot p {
+    font-size: 12px;
+    margin-left: 0;
+  }
+}
