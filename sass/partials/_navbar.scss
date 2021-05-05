@@ -1,0 +1,35 @@
+
+.navbar {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: 500;
+    margin: 10px 30px;
+}
+.navbar-right{
+    margin-left: 421px;
+}
+
+.navbar-nav li .nav-link{
+    color: #272D4E !important;
+}
+.navbar-nav li:first-child{
+    margin-left: 80px;
+}
+.navbar-search a{
+    margin-left: 20px;
+}
+.navbar-search .login{
+    text-decoration: none;
+    color: #272D4E !important;
+}
+.navbar-search .start-btn{
+    background: #7854F7 !important;
+    color: white !important;
+    display: inline-block;
+}
+.navbar-search .search-btn{
+    display: inline-block;
+    color: #272D4E;
+}

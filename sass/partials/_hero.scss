@@ -1,0 +1,24 @@
+
+#intro {
+    padding: 180px 0;
+    height: 120vh;
+    background: url("/04-05-2021-Mircavid12/assets/images/hero_section.png");
+    background-size: cover;
+    .content{
+        h1{
+            color: #272D4E;
+            font-weight: 700;
+            margin-top: 40px;
+        }
+        p{
+            padding: 15px 0;
+            color: #94A2B3;
+        }
+        .start-btn{
+            background-color: #7854F7;
+            border: none;
+            padding: 15px 50px;
+            border-radius: 30px;
+        }
+    }
+}    

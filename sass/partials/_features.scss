@@ -1,0 +1,40 @@
+#features{
+    background: url("/04-05-2021-Mircavid12/assets/images/features.png");
+    padding: 100px 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    a{
+        padding: 14px 25px;
+        border: none;
+        background-color: #70C217 !important;
+    }
+    .develop{
+        color: white;
+        img{
+            max-width: 50%;
+            margin-top: 20px;
+            float: left;
+            padding-right: 30px;
+            margin-top: -80px;
+        }
+        h4{
+            padding-top: 35px;
+            line-height: 30px;
+        }
+        p{
+            padding: 10px 0;
+        }
+    }
+    .community{
+        color: white;
+        img{
+            max-width: 45%;
+            float: right;
+        }
+        h4{
+            padding-top: 50px;
+        }
+        padding: 10px 0;
+    }
+}
